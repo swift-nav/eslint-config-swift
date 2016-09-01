@@ -31,3 +31,15 @@ or
   "extends": "swift/electron"
 }
 ```
+
+And you probably want this in your `package.json`:
+
+```json
+{
+  "scripts": {
+    ...
+    "lint": "eslint -c .eslintrc --ext .jsx,.js list of source directories"
+    ...
+  }
+}
+```
