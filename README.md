@@ -43,3 +43,15 @@ And you probably want this in your `package.json`:
   }
 }
 ```
+
+## webpack resolution
+
+For the webpack import resolver to work, `webpack.config.js` must be in the filesystem adjacent to your `package.json`.
+
+You probably want it to look something like this:
+
+```javascript
+// here for eslint-import-resolver-webpack
+require('babel-register');
+module.exports = require('./webpack.config.development.js');
+```
