@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-swift",
+  "version": "1.0.0",
+  "description": "eslint config used by Swift for frontend apps; based on airbnb's eslint config, but stricter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"nope\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/swift-nav/eslint-config-swift.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "swift",
+    "es6",
+    "javascript"
+  ],
+  "author": "Joshua Gross <joshua.gross@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swift-nav/eslint-config-swift/issues"
+  },
+  "homepage": "https://github.com/swift-nav/eslint-config-swift#readme",
+  "dependencies": {
+    "eslint-import-resolver-webpack": "^0.5.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}
