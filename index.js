@@ -33,7 +33,8 @@ module.exports = {
     "arrow-body-style": [2, "as-needed"],
     "no-multi-spaces": 0,
     "no-console": 2,
-    "no-alert": 2
+    "no-alert": 2,
+    "no-restricted-syntax": 0
   },
   "plugins": [
     "import",
