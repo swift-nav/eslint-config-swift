@@ -34,7 +34,8 @@ module.exports = {
     "no-multi-spaces": 0,
     "no-console": 2,
     "no-alert": 2,
-    "no-restricted-syntax": 0
+    "no-restricted-syntax": 0,
+    "no-warning-comments": 1
   },
   "plugins": [
     "import",
