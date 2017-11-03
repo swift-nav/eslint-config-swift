@@ -35,11 +35,13 @@ module.exports = {
     "no-console": 2,
     "no-alert": 2,
     "no-restricted-syntax": 0,
-    "no-warning-comments": 1
+    "no-warning-comments": 1,
+    "graphql/template-strings": [2, { env: "apollo" }]
   },
   "plugins": [
     "import",
-    "react"
+    "react",
+    "graphql"
   ],
   "settings": {
     "import/resolver": "webpack",
